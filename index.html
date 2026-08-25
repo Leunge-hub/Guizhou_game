@@ -205,12 +205,12 @@ canvas.addEventListener('click', (e) => {
     const ey = (e.clientY - rect.top) * scaleY;
 
     // 測試按鈕區域[cite: 6]
-    if (proc >= 1 && proc <= 6 && ex > 1000 && ey < 200) {
-        player = 26; computer = 0; proc = 7; tmr = 0; return;
-    }
-    if (proc >= 1 && proc <= 6 && ex > 1000 && ey >= 400 && ey <= 600) {
-        player = 0; computer = 26; proc = 7; tmr = 0; return;
-    }
+    //if (proc >= 1 && proc <= 6 && ex > 1000 && ey < 200) {
+    //   player = 26; computer = 0; proc = 7; tmr = 0; return;
+    //}
+    //if (proc >= 1 && proc <= 6 && ex > 1000 && ey >= 400 && ey <= 600) {
+    //    player = 0; computer = 26; proc = 7; tmr = 0; return;
+    //}
 
     // 開局點擊[cite: 6]
     if (proc === 0) {
